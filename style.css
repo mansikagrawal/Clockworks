@@ -1,0 +1,80 @@
+body,
+button,
+input {
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    margin: 72px 140px 0;
+    background-image: url("https://images.all-free-download.com/images/graphicthumb/red_shading_background_05_hd_pictures_169759.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    font-weight: 800;
+    color: white;
+    font-size: 74px;
+}
+
+#controls {
+    display: inline-block;
+    width: 46%;
+    border-right: 1px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 42px;
+    padding-right: 42px;
+}
+
+.input-group {
+    margin: 26px 0;
+}
+
+label {
+    display: inline-block;
+    width: 24%;
+    color: white;
+    font-weight: 200;
+    font-size: 30px;
+    padding: 12px;
+}
+
+input {
+    width: 60%;
+    font-size: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    padding-left: 6px;
+    font-weight: 200;
+}
+
+input:disabled {
+    background-color: wheat;
+    opacity: 0.6;
+}
+
+button {
+    padding: 12px 62px;
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    opacity: .9;
+}
+
+button:disabled {
+    opacity: .3;
+    color: white;
+}
+
+h2 {
+    display: inline-block;
+    vertical-align: top;
+    font-weight: 200;
+    font-size: 144px;
+    color: white;
+    margin: 12px 0px;
+    padding-left: 100px;
+}
